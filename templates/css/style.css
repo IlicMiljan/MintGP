@@ -1,0 +1,94 @@
+html {
+  animation: FadeIn 1s;
+}
+
+body {
+  background: url("../img/BG.png") repeat;
+}
+
+@keyframes FadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.alert {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-box {
+  max-width: 500px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+.page-info {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.page-info > h3 {
+  margin: 0px;
+}
+
+.page-info > img {
+  margin-top: 15px;
+}
+
+.bg-inverse {
+  color: #FFF;
+  background-color: #2C3E50;
+}
+
+.modal-header {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.panel-inverse {
+  border-color: #ddd;
+}
+.panel-inverse > .panel-heading {
+  color: #FFF;
+  background-color: #2C3E50;
+  border-color: #ddd;
+}
+.panel-inverse > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+.panel-inverse > .panel-heading .badge {
+  color: #f5f5f5;
+  background-color: #333;
+}
+.panel-inverse > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #ddd;
+}
+
+table > thead {
+  background-color: #2C3E50;
+  color: #FFF;
+}
+
+.breadcrumb>li+li:before {
+  color: rgba(204, 204, 204, 1);
+  content: "\276F\00a0";
+}
+
+.date {
+  line-height: 18px;
+  vertical-align: middle;
+}
+
+.file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
